@@ -34,8 +34,8 @@ h1 {
 /* Heading 1 element hover effect */
 h1:hover {
     filter: grayscale(5%); /* Adds a slightly gray filter to the h1 headings when hovered over */
-    transform: scale(1.1); /* When the h1 elements are hovered over they increase in size by 1.1 */
-    transition: transform 1s; /* This causes the transformation to last 1 second */
+    /*transform: scale(1.1); /* When the h1 elements are hovered over they increase in size by 1.1 */
+    /*transition: transform 1s; /* This causes the transformation to last 1 second */
 }
 
 /* Styling for Portfolio Title Text */
@@ -56,8 +56,8 @@ p {
 
 /* Paragraph element hover effect */
 p:hover {
-    transition: transform 1s; /* This makes the transform effect last 1 second */
-	transform: scale(1.01); /* This makes the paragraphs increase slightly in size when hovered over */
+    /*transition: transform 1s; /* This makes the transform effect last 1 second */
+	/*transform: scale(1.01); /* This makes the paragraphs increase slightly in size when hovered over */
 }
 
 /* Center class - this applies to all centered text */
@@ -67,8 +67,8 @@ p:hover {
 
 /* Center align elements hover effect - This only affects the quote, github link, and footer */
 .center:hover {
-    transition: transform 2s; /* This makes the transform effect last 2 seconds */
-    transform: scale(1.1); /* This makes the elements with class "center" increase in size by 1.1 when hovered over */
+    /*transition: transform 2s; /* This makes the transform effect last 2 seconds */
+    /*transform: scale(1.1); /* This makes the elements with class "center" increase in size by 1.1 when hovered over */
 }
 
 /* Anchor elements */
@@ -108,7 +108,7 @@ footer {
 /***** Navbar Styling *****/
 .Navbar {
     overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
-    background-color: purple; /* This colors the navbar black */
+    background-color: #4eac69; /* This colors the navbar black */
     position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
     top: 0; /* This ensures no space is displayed above the navbar */
     width: 100%; /* This makes the navbar span the entire width of the page */
@@ -146,7 +146,7 @@ footer {
 
 /*Navbar hover effects */
 .Navbar a:hover {
-    background-color: green; /* Defines the background color that will display when you hover over the link */
+    background-color: #4eac69; /* Defines the background color that will display when you hover over the link */
     color: black; /* This defines the font color that will display when navbar a elements are hovered over */
     font-weight: bold; /* This makes the text on the navbar bold when hovered over */
     cursor: pointer;
@@ -155,7 +155,8 @@ footer {
 
 /* Navbar home button */
 .Navbar a.active { /* This targets the a element on the navbar with the "active" class */
-    background-color: green;
+    background-color: black;
+    color: #4eac69;
 }
 /***** End of Navbar Styling *****/
 
@@ -342,7 +343,7 @@ footer {
     bottom: 1.75vw; /* Positions the button slightly up from the bottom of the viewport */
     right: 1.75vw; /* Positions the viewport slightly right from the side of the viewport */
     width: 25vw; /* Sets the width relative to the viewport width */
-    background-color: white; /* Sets the background color of the button to white */
+    background-color: #4eac69; /* Sets the background color of the button to white */
     color: black; /* Sets the color of the button text to black */
     border: solid black; /* This makes a solid black border around the button */
     cursor: pointer; /* This changes the cursor when hovered over the button to a pointer */
@@ -374,7 +375,7 @@ footer {
 .form-container {
     max-width: 49vw; /* Relative sizing of the form container - 49% of the viewport width */
     padding: 1vw; /* Adds padding between the form-popup and the form-container */
-    background-color: white; 
+    background-color: #4eac69; 
 }
 
 /* Input fields */
@@ -401,7 +402,7 @@ button {
 
 /* Hover effect for contact and submit buttons */
 button:hover, .form-container .btn:hover {
-    color: white; /* This makes the text in the buttons white when hovered over */
+    color: #4eac69; /* This makes the text in the buttons white when hovered over */
     background-color: black; /* The background of the button changes to black when hovered over */
     transition-duration: 1s; /* This makes the transition last 1 second */
     -webkit-transition-duration: 1s; /* For Safari 4.0-8.0 */
@@ -410,7 +411,7 @@ button:hover, .form-container .btn:hover {
 
 /* Submit button */
 .form-container .btn {
-    background-color: white; 
+    background-color: #4eac69; 
     color: black;
     border-color: black;
     margin-bottom: 1vh; /* Adds space between the submit button and the close button */
@@ -419,7 +420,7 @@ button:hover, .form-container .btn:hover {
 /* Close button */
 .form-container .cancel {
     background-color: black;
-    color: white;
+    color: #4eac69;
     border-color: gray;
 }
 
